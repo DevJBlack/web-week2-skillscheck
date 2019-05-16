@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+nav {
+  height: 40px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul  {
+  display: flex;
+  margin: 0 24px;
+  list-style: none;
+}
+
+ nav ul li {
+  font-weight: 500; 
+  margin: 0 20px;
+  font-size: 13px;
+  color: white;
+}
+
+.company {
+  color: white;
+  font-size: 26px;
+  margin: 0 40px;
+}
+
+.black-box {
+  background-color: black;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow-text {
+  color: rgb(221, 221, 105);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.three-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.three-boxs .box-one,
+.three-boxs .box-two,
+.three-boxs .box-three {
+  background-color: rgb(82, 247, 211);
+  height: 200px;
+  width: 200px;
+  margin: 20px 25px;
+  border-radius: 15px;
+}
+
+.two-rectangles {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.two-rectangles .rectangle-one,
+.two-rectangles .rectangle-two {
+  background-color: rgb(245, 188, 81);
+  height: 175px;
+  width: 550px;
+  margin: 0 25px;
+}
+
+.text-pic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 100px;
+  margin: 25px 10px;
+}
+
+.text {
+  height: 150px;
+  width: 350px;
+  font-size: 11.5px;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.pic {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.bottom {
+  margin-top: 50px;
+  background-color: rgb(47, 44, 78);
+  height: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
